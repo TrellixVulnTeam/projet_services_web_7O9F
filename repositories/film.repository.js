@@ -2,7 +2,6 @@
 
 const FilmsActorsRepository = require("./filmsActors.repository");
 
-const toto = new FilmsActorsRepository();
 /* eslint-disable func-names */
 class FilmRepository {
   constructor(database) {

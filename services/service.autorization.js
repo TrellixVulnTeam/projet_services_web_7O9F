@@ -1,6 +1,4 @@
 function checkAuth(req, res, next) {
-  console.log(req.headers.authorization);
-
   if (!req.headers.authorization) {
     return res
       .status(401)

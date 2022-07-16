@@ -89,7 +89,6 @@ class FilmsActorsRepository {
       }
       // For only one actor
       if (!actors_id.length) {
-        console.log("test simple");
         this.database.run(
           `UPDATE films_actors SET actor_id = ${actors_id} WHERE film_id = ${film_id}`
         ),
